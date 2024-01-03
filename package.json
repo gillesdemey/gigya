@@ -1,8 +1,10 @@
 {
   "name": "@gillesdemey/gigya",
   "description": "Gigya SDK for NodeJS.",
-  "keywords": ["gigya"],
-  "version": "3.0.2",
+  "keywords": [
+    "gigya"
+  ],
+  "version": "3.0.3",
   "author": {
     "name": "Scott Hovestadt",
     "email": "scott.hovestadt@gmail.com"
@@ -34,7 +36,10 @@
     "request": "^2.79.0",
     "strict-uri-encode": "^2.0.0"
   },
-  "files": ["dist", "assets"],
+  "files": [
+    "dist",
+    "assets"
+  ],
   "main": "dist/index.js",
   "typings": "dist/index",
   "readmeFilename": "README.md",
