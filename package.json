@@ -1,9 +1,7 @@
 {
   "name": "@gillesdemey/gigya",
   "description": "Gigya SDK for NodeJS.",
-  "keywords": [
-    "gigya"
-  ],
+  "keywords": ["gigya"],
   "version": "3.0.3",
   "author": {
     "name": "Scott Hovestadt",
@@ -21,25 +19,22 @@
   ],
   "scripts": {
     "prepack": "npm run build",
-    "build": "tsc"
+    "build": "rm -rf dist/ && tsc"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/scotthovestadt/gigya.git"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.138",
+    "@types/lodash": "^4.14.202",
     "@types/node": "^12.7.3",
     "@types/request": "^2.48.2",
     "jose": "^1.17.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "request": "^2.79.0",
     "strict-uri-encode": "^2.0.0"
   },
-  "files": [
-    "dist",
-    "assets"
-  ],
+  "files": ["dist", "assets"],
   "main": "dist/index.js",
   "typings": "dist/index",
   "readmeFilename": "README.md",
@@ -47,8 +42,8 @@
     "url": "https://github.com/scotthovestadt/gigya/issues"
   },
   "homepage": "https://github.com/scotthovestadt/gigya",
+  "license": "MIT",
   "devDependencies": {
-    "typescript": "3.6.2"
-  },
-  "license": "MIT"
+    "typescript": "^5.3.3"
+  }
 }
